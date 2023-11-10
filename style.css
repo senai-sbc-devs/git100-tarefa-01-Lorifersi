@@ -86,3 +86,39 @@ h2{
     font-family: 'Shadows Into Light', cursive;
 }
 
+/* Configuração visual do footer colorindo e estilizando */
+footer{
+    display: flex;
+    background-color: #4b1c71;
+    height: 100px;
+    margin-top: 70px;
+    padding: 16px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+}
+
+/* Estilização do texto dentro do Footer */
+h3{
+    color: #f1d7ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* formatação da imagem, sendo ela o item anteriormente dito */
+.item img {
+    width: 100%;
+    height: auto; 
+    max-width: 200px; 
+}
+
+/* formatação do texto com a infromação necessária sobre os tipos de comando */
+.item p {
+    color: #4b1c71;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
