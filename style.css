@@ -1,0 +1,108 @@
+/* Paleta de Cores{
+    color:#4b1c71;
+    color: #a87bc7;
+    color: #e0b0ff;
+    color: #f1d7ff;
+} */
+
+/* Cor de fundo do site */
+body{
+    background-color: #e0b0ff;
+}
+
+/* estilização da header*/
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #4b1c71;
+    padding: 30px;
+}
+
+/* Estilização do texto principal da página. */
+h1{
+    color: #f1d7ff;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Caixa para texto introdutório */
+.caixa{
+    display: flex;
+    background-color:#4b1c71;
+    border-radius: 15px;
+    padding-left: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+}
+
+/* estilização do texto dentro da caixa projetada anteriormente */
+.caixa p{
+    color: #f1d7ff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* estilização do texto de interfase entre a introdução e o conteúdo principal */
+h2{
+    color: #4b1c71;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* desenvolvimento da div container para a melhor disposição das imagens */
+.container {
+    display: flex; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+/* aplicação da localidade do item */
+.item {
+    flex: 1; 
+    margin: 20px; 
+    text-align: center; 
+}
+
+/* formatação da imagem, sendo ela o item anteriormente dito */
+.item img {
+    width: 100%;
+    height: auto; 
+    max-width: 200px; 
+}
+
+/* formatação do texto com a infromação necessária sobre os tipos de comando */
+.item p {
+    color: #4b1c71;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Configuração visual do footer colorindo e estilizando */
+footer{
+    display: flex;
+    background-color: #4b1c71;
+    height: 100px;
+    margin-top: 70px;
+    padding: 16px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+}
+
+/* Estilização do texto dentro do Footer */
+h3{
+    color: #f1d7ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
