@@ -26,7 +26,6 @@ h1{
     color: #f1d7ff;
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
-
 }
 
 /* Caixa para texto introdutório */
@@ -55,5 +54,35 @@ h2{
     font-size: 40px;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
-
 }
+
+/* desenvolvimento da div container para a melhor disposição das imagens */
+.container {
+    display: flex; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+/* aplicação da localidade do item */
+.item {
+    flex: 1; 
+    margin: 20px; 
+    text-align: center; 
+}
+
+/* formatação da imagem, sendo ela o item anteriormente dito */
+.item img {
+    width: 100%;
+    height: auto; 
+    max-width: 200px; 
+}
+
+/* formatação do texto com a infromação necessária sobre os tipos de comando */
+.item p {
+    color: #4b1c71;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
