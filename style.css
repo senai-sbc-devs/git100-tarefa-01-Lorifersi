@@ -26,4 +26,34 @@ h1{
     color: #f1d7ff;
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
+
+}
+
+/* Caixa para texto introdutório */
+.caixa{
+    display: flex;
+    background-color:#4b1c71;
+    border-radius: 15px;
+    padding-left: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+}
+
+/* estilização do texto dentro da caixa projetada anteriormente */
+.caixa p{
+    color: #f1d7ff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* estilização do texto de interfase entre a introdução e o conteúdo principal */
+h2{
+    color: #4b1c71;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+
 }
