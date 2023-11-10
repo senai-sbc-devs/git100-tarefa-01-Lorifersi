@@ -1,0 +1,29 @@
+/* Paleta de Cores{
+    color:#4b1c71;
+    color: #a87bc7;
+    color: #e0b0ff;
+    color: #f1d7ff;
+} */
+
+/* Cor de fundo do site */
+body{
+    background-color: #e0b0ff;
+}
+
+/* estilização da header*/
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #4b1c71;
+    padding: 30px;
+}
+
+/* Estilização do texto principal da página. */
+h1{
+    color: #f1d7ff;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
