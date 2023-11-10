@@ -106,3 +106,19 @@ h3{
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
 }
+
+/* formatação da imagem, sendo ela o item anteriormente dito */
+.item img {
+    width: 100%;
+    height: auto; 
+    max-width: 200px; 
+}
+
+/* formatação do texto com a infromação necessária sobre os tipos de comando */
+.item p {
+    color: #4b1c71;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
